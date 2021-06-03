@@ -3,91 +3,78 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My First Portfolio</title>
+    <title>Portfolio - Brent Gauthier</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-<!--Document header-->
-<header>
-    <div class = 'header-name'>
-        <h1>Brent Gauthier</h1>
-    </div>
-    <div class = 'header-nav'>
-        <ul class = 'header-nav-menu'>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
-        </ul>
-    </div>
-</header>
-<!--Main body of the document-->
-<main>
-    <section id = 'introduction'>
-        <div class = 'group'>
-            <div class = 'item'>
-                <img src = 'images/headshot.jpg' alt = 'Brent Gauthier headshot' class = 'headshot'>
-            </div>
-            <div class = 'item item-double'>
-                <h2>Hello, my name is Brent Gauthier</h2>
-                <p>I'm a software engineer from the Baltimore area.</p>
-                <img src = 'images/baltimore-skyline.jpg' alt = 'Baltimore Skyline' class = 'skyline'>
-            </div>
+    <div class = 'wrapper'>
+      <header>
+        <div class = 'header-name'>
+          <h1>Brent Gauthier</h1>
         </div>
-    </section>
-
-    <section id = 'about'>
-        <h2>About Me</h2>
-        <div class = 'group'>
-            <div class = 'item item-double'>
-                <p>I started out working in Operations and Logistcs in a few different positions
-                    before starting down the road to software development. Along the way I've developed
-                    a skill set that helps in the workforce.
-                </p>
-                <p>In my past work experience, I've been a member of several teams, both as a team member 
-                    and leader. I have experience both working on my own and with others. I also have 
-                    experience leading a team towards a common goal.
-                </p>
-                <p>In addition to my work history, I have a long history in music. Playing in ensembles, 
-                    both large and small, has also taught me the value of teamwork and a group 
-                    coming together towards a common goal. In addition to the teamwork involved in 
-                    music ensembles, it has also helped me develop a creative side.
-                </p>
-                <p>I also have honed my creative skills in the kitchen, creating and sampling dishes 
-                    from all over the world. Cooking for myself and my family has been another way 
-                    to expand my skill pallette, further develop my creativity and spend time with 
-                    my family and friends.
-                </p>
-            </div>
-            <div class = 'skills'>
-                <h4 class = 'skillset'>Skills and Tools</h4>
-                <ul class = 'skills-list'>
-                    <li>JavaScript, React, Node</li>
-                    <li>Custom software development</li>
-                    <li>HTML and CSS</li>
-                    <li>API Design and Deployment</li>
-                    <li>SQL and PostgreSQL</li>
-                    <li>Full Stack Development</li>
-                </ul>
-            </div>
-            <!-- <div class = 'item'>
-                <img src = 'images/gumbo.jpg' alt = 'Homemade Gumbo' class = 'gumbo'>
-            </div> -->
-        </div>
-    </section>
-
-    <section id = 'projects'>
-        <h2>Projects</h2>
-        <div class = 'group'>
+        <nav>
+          <ul id = 'menu'>
+            <li><a href = '#about'>About</a></li>
+            <li><a href = '#projects'>Projects</a></li>
+            <li><a href = '#contact'>Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id = 'intro'>
+          <div class = 'group'>
             <div class = 'item'>
-                <div class = 'links'>
-                    <a href = 'https://make-a-plan-bsgauthierwebdev.vercel.app/' target = '_blank'>
-                        <h4>Make A Plan</h4>
-                    </a>
-                    <h4> --- </h4>
-                    <a href = 'https://github.com/BsgauthierWebDev/make-a-plan' target = '_blank'>
-                        <h4>GitHub Repository</h4>
-                    </a>
+              <img src = 'images/headshot.jpg' alt = 'Brent Gauthier' class = 'headshot'>
+            </div>
+            <div class = 'item-double'>
+              <h2>Hello, my name is Brent Gauthier</h2>
+              <p>I'm a software engineer from the Baltimore area.</p>
+              <p>I started out working in Operations and Logistcs in a few different positions
+              before starting down the road to software development. Along the way I've developed
+              a unique skill set with experience in several areas of the workforce.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id = 'about'>
+          <h2>About Me</h2>
+          <div class = 'group'>
+            <div class = 'item-double'>
+              <p>In my past work experience, I've been a member of several teams, both as a team member 
+              and leader. I have experience both working on my own and with others. I also have 
+              experience leading a team towards a common goal.</p>
+              <p>In addition to my work history, I have a long history in music. Playing in ensembles, both large and small, has also taught me the value of teamwork and a group 
+              coming together towards a common goal. In addition to the teamwork involved in 
+              music ensembles, it has also helped me develop a creative side.</p>
+              <p>I also have honed my creative skills in the kitchen, creating and sampling dishes 
+              from all over the world. Cooking for myself and my family has been another way 
+              to expand my skill pallette, further develop my creativity and spend time with 
+              my family and friends.</p>
+            </div>
+            <div class = 'item'>
+              <h3 class = 'skillset'>Skills and Tools</h3>
+              <hr>
+              <ul class = 'skills-list'>
+                <li>JavaScript, React, Node</li>
+                <li>Custom software development</li>
+                <li>HTML and CSS</li>
+                <li>API Design and Deployment</li>
+                <li>SQL and PostgreSQL</li>
+                <li>Full Stack Development</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id = 'projects'>
+          <h2>Projects</h2>
+          <div class = 'group'>
+            <div class = 'item'>
+              <div class = 'links'>
+                <a href = 'https://make-a-plan-bsgauthierwebdev.vercel.app/' target = '_blank'><h4>Make A Plan</h4></a>
+                <h4 class = 'slash'> / </h4>
+                <a href = 'https://github.com/BsgauthierWebDev/make-a-plan' target = '_blank'><h4>GitHub</h4></a>
                 </div>
                 <div class = 'project-image'>
                     <img src = 'images/make-a-plan-screenshot.JPG' alt = 'Make A Plan' class = 'make-a-plan-screenshot'>
@@ -105,9 +92,9 @@
                     <a href = 'https://kitchen-community.vercel.app/' target = '_blank'>
                         <h4>Kitchen Community</h4>
                     </a>
-                    <h4> --- </h4>
+                    <h4 class = 'slash'> / </h4>
                     <a href = 'https://github.com/BsgauthierWebDev/kitchen-community' target = '_blank'>
-                        <h4>GitHub Repository</h4>
+                        <h4>GitHub</h4>
                     </a>
                 </div>
                 <div class = 'project-image'>
@@ -129,9 +116,9 @@
                     <a href = 'https://bsgauthierwebdev.github.io/Brewpub-Locater-API-Project/' target = '_blank'>
                         <h4>Brewery Locater</h4>
                     </a>
-                    <h4> --- </h4>
+                    <h4 class = 'slash'> / </h4>
                     <a href = 'https://github.com/BsgauthierWebDev/Brewpub-Locater-API-Project' target = '_blank'>
-                        <h4>GitHub Repository</h4>
+                        <h4>GitHub</h4>
                     </a>
                 </div>
                 <div class = 'project-image'>
@@ -147,9 +134,10 @@
             </div>
             <div class = 'item'>
                 <div class = 'links'>
-                    <h4>Make A Plan API --- </h4>
+                    <h4 class = 'no-hyperlink'>Make A Plan API</h4>
+                    <h4  class = 'slash'> / </h4>
                     <a href = 'https://github.com/BsgauthierWebDev/make-a-plan-api' target = '_blank'>
-                        <h4>GitHub Repository</h4>
+                        <h4>GitHub</h4>
                     </a>
                 </div>
                 <div class = 'project-image'>
@@ -193,18 +181,16 @@
                 </form>
             </div>
             <div class = 'item'>
-                <img src = 'images/baltimore-map.png' alt = 'Baltimore, MD' class = 'baltimore-map'>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98821.0302998104!2d-76.69053658343472!3d39.28468541992286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c803aed6f483b7%3A0x44896a84223e758!2sBaltimore%2C%20MD!5e0!3m2!1sen!2sus!4v1622762263425!5m2!1sen!2sus" width="600" height="450" style="border: 10px;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </section>
-
-</main>
-<!--Footer section starts here-->
-<footer>
+      </main>
+      <footer>
   <h4>&copy; 2021 bsgauthierwebdev</h4>
  </footer>
+     <script src="script.js"></script>
 
-    <script src="script.js"></script>
+    </div>
   </body>
 </html>
-

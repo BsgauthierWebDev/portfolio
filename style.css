@@ -1,0 +1,194 @@
+.wrapper {
+    background-image: url('images/background.jpg');
+  }
+  
+  main{
+    margin-top:60px;
+  }
+  
+  section {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+  
+  #projects, #intro{
+    background-color: rgb(119, 136, 153, .5);
+    text-align: center;
+  }
+  
+  #about, #contact{
+    background-color: rgb(62, 60,73, .5);
+    color: white;
+    text-align: center;
+  }
+  
+  .group {
+    text-align: left;
+  }
+  
+  main img, iframe {
+    border-radius: 12px;
+    width: 100%;
+  }
+  
+  .slash{
+    margin: 0px 10px 0px 10px;
+  }
+  
+  /* --- Typography -- */
+  h1{
+    font-family: 'Georgia', serif;
+  }
+  main h2{
+    font-family: 'Trebuchet MS', sans-serif; 
+  }
+  main h3{
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  main h4{
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  main h5{
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  main p{
+    font-family: 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+  }
+  main li, li {
+    font-family: 'Trebuchet MS', sans-serif;
+    word-wrap: break-word;
+  }
+  main li {
+    font-size: 18px;
+  }
+  
+  
+  
+  
+  
+  
+  /*header, footer, and navigation*/
+  header, footer{
+    background-color: #333533;
+    color: #e8eddf;
+    text-align: center;
+    padding-top: 15px ;
+    width: 100%;
+  }
+  footer{
+    padding: 15px 0;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 0 20px 0
+  }
+  
+  header nav ul li {
+    list-style-type: none;
+  }
+  header nav ul li a {
+    text-decoration: none;
+  }
+  nav a{
+    margin-right: 20px;
+    padding:0;
+  }
+  
+  
+  @media all and (min-width: 800px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 0 0 14px;
+    }
+  
+    header nav {
+      margin: 50px 10px 10px 10px;
+    }
+  }
+  /*pseudo-classes for links*/
+  a:link {
+    color: white;
+    text-decoration: none;
+    }
+  a:visited {
+    color: white;
+    text-decoration: none;
+    }
+  a:hover {
+    color: purple;
+    text-decoration: underline;
+    }
+  
+  a.menu_links {
+    cursor: finger;
+  }
+  
+  .no-hyperlink {
+    color: white;
+  }
+  
+  /* Groups & Items  (Mobile First) */
+  .group {
+    display: flex;
+    flex-direction: column;
+  }
+  .links{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: row;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 15px;
+  }
+  .item-double {
+    flex: 2;
+    margin: 15px;
+  }
+  
+  /* Groups & Items  (Desktop) */
+  @media all and (min-width: 800px) {
+    section {
+      padding: 0 10%;
+    }
+  
+    .group {
+      flex-direction: row;
+    }
+  
+    #about h2, #projects h2, #contact h2 {
+    font-size: 48px;
+  }
+  
+  }
+  
+  /* Contact Form */
+  
+  form {
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  form input, 
+  form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  form textarea {
+    height: 160px;
+  }
