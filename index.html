@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+<!--Document header-->
+<header>
+    <div class = 'header-name'>
+        <h1>Brent Gauthier</h1>
+    </div>
+    <div class = 'header-nav'>
+        <ul class = 'header-nav-menu'>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+</header>
+<!--Main body of the document-->
+<main>
+    <section id = 'introduction'>
+        <div class = 'group'>
+            <div class = 'item'>
+                <img src = 'images/headshot.jpg' alt = 'Brent Gauthier headshot' class = 'headshot'>
+            </div>
+            <div class = 'item item-double'>
+                <h2>Hello, my name is Brent Gauthier</h2>
+                <p>I'm a software engineer from the Baltimore area.</p>
+                <img src = 'images/baltimore-skyline.jpg' alt = 'Baltimore Skyline' class = 'skyline'>
+            </div>
+        </div>
+    </section>
+
+    <section id = 'about'>
+        <h2>About Me</h2>
+        <div class = 'group'>
+            <div class = 'item item-double'>
+                <p>I started out working in Operations and Logistcs in a few different positions
+                    before starting down the road to software development. Along the way I've developed
+                    a skill set that helps in the workforce.
+                </p>
+                <p>In my past work experience, I've been a member of several teams, both as a team member 
+                    and leader. I have experience both working on my own and with others. I also have 
+                    experience leading a team towards a common goal.
+                </p>
+                <p>In addition to my work history, I have a long history in music. Playing in ensembles, 
+                    both large and small, has also taught me the value of teamwork and a group 
+                    coming together towards a common goal. In addition to the teamwork involved in 
+                    music ensembles, it has also helped me develop a creative side.
+                </p>
+                <p>I also have honed my creative skills in the kitchen, creating and sampling dishes 
+                    from all over the world. Cooking for myself and my family has been another way 
+                    to expand my skill pallette, further develop my creativity and spend time with 
+                    my family and friends.
+                </p>
+            </div>
+            <div class = 'skills'>
+                <h4 class = 'skillset'>Skills and Tools</h4>
+                <ul class = 'skills-list'>
+                    <li>JavaScript, React, Node</li>
+                    <li>Custom software development</li>
+                    <li>HTML and CSS</li>
+                    <li>API Design and Deployment</li>
+                    <li>SQL and PostgreSQL</li>
+                    <li>Full Stack Development</li>
+                </ul>
+            </div>
+            <!-- <div class = 'item'>
+                <img src = 'images/gumbo.jpg' alt = 'Homemade Gumbo' class = 'gumbo'>
+            </div> -->
+        </div>
+    </section>
+
+    <section id = 'projects'>
+        <h2>Projects</h2>
+        <div class = 'group'>
+            <div class = 'item'>
+                <div class = 'links'>
+                    <a href = 'https://make-a-plan-bsgauthierwebdev.vercel.app/' target = '_blank'>
+                        <h4>Make A Plan</h4>
+                    </a>
+                    <h4> --- </h4>
+                    <a href = 'https://github.com/BsgauthierWebDev/make-a-plan' target = '_blank'>
+                        <h4>GitHub Repository</h4>
+                    </a>
+                </div>
+                <div class = 'project-image'>
+                    <img src = 'images/make-a-plan-screenshot.JPG' alt = 'Make A Plan' class = 'make-a-plan-screenshot'>
+                </div>
+                <div class = 'project-description'>
+                    <h4>Skills used: React / JavaScript / CSS / JWT</h4>
+                    <p>This app is designed to walk the user through all stages of a project, from the gathering 
+                        of the materials to the implementation of all steps. Along the way, users can keep track of 
+                        their progress by checking off items as they are acquired and steps as they are completed.
+                    </p>
+                </div>
+            </div>
+            <div class = 'item'>
+                <div class = 'links'>
+                    <a href = 'https://kitchen-community.vercel.app/' target = '_blank'>
+                        <h4>Kitchen Community</h4>
+                    </a>
+                    <h4> --- </h4>
+                    <a href = 'https://github.com/BsgauthierWebDev/kitchen-community' target = '_blank'>
+                        <h4>GitHub Repository</h4>
+                    </a>
+                </div>
+                <div class = 'project-image'>
+                    <img src = 'images/kitchen-community-screenshot.JPG' alt = 'Kitchen Community' class = 'kitchen-community-screenshot'>
+                </div>
+                <div class = 'project-description'>
+                    <h4>Skills used: React / JavaScript / CSS / Node / PostgreSQL</h4>
+                    <p>This is a user-sourced app to share recipes and kitchen hacks. Kitchen Community 
+                        is designed as a space for home cooks to trade ideas without the pressure of 
+                        Instagram and celebrity chefs.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class = 'group'>
+            <div class = 'item'>
+                <div class = 'links'>
+                    <a href = 'https://bsgauthierwebdev.github.io/Brewpub-Locater-API-Project/' target = '_blank'>
+                        <h4>Brewery Locater</h4>
+                    </a>
+                    <h4> --- </h4>
+                    <a href = 'https://github.com/BsgauthierWebDev/Brewpub-Locater-API-Project' target = '_blank'>
+                        <h4>GitHub Repository</h4>
+                    </a>
+                </div>
+                <div class = 'project-image'>
+                    <img src = 'images/brewpub-locater-screenshot.JPG' alt = 'Brewery Locater' class = 'brewpub-locater-screenshot'>
+                </div>
+                <div class = 'project-description'>
+                    <h4>Skills used: JavaScript / jQuery / CSS</h4>
+                    <p>This app finds breweries and brewpubs in a user-specified search area using city 
+                        and/or state. Once the list is populated, the user can select one location and 
+                        the others are then sorted based on proximity to the selected location.
+                    </p>
+                </div>
+            </div>
+            <div class = 'item'>
+                <div class = 'links'>
+                    <h4>Make A Plan API --- </h4>
+                    <a href = 'https://github.com/BsgauthierWebDev/make-a-plan-api' target = '_blank'>
+                        <h4>GitHub Repository</h4>
+                    </a>
+                </div>
+                <div class = 'project-image'>
+                    <img src = 'images/make-a-plan-api-screenshot.JPG' alt = 'Make A Plan API' class = 'make-a-plan-api-screenshot'>
+                </div>
+                <div class = 'project-description'>
+                    <h4>Skills used: Express / Node / PostgreSQL / Knex / JWT</h4>
+                    <p>This is the API for the Make A Plan app. The API required related tables in order to 
+                        store the Users, Projects, Materials and Steps information. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = 'contact'>
+        <h2>Contact Me</h2>
+        <div class = 'group'>
+            <div class = 'item'>
+                <p>Please feel free to reach out. I'd love to hear from you and discuss what I can do to help you.</p>
+                <ul>
+                    <li>
+                        <a href = 'https://www.linkedin.com/in/brentgauthier/' target = '_blank'>LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href = 'https://github.com/BsgauthierWebDev' target = '_blank'>GitHub</a>
+                    </li>
+                    <li><a href="mailto:brentsgauthier@gmail.com">brentsgauthier@gmail.com</a></li>
+                </ul>
+                <h4>Get in Touch</h4>
+                <form action="https://formspree.io/cajundrummer@gmail.com" method="POST">
+                    <label for="user-name">Name:</label>
+                    <input id="user-name" type="text" name="name">
+            
+                    <label for="user-email">Email:</label>
+                    <input id="user-email" type="text" name="email">
+            
+                    <label for="user-msg">Your Message Here...</label>
+                    <textarea id="user-msg" name="message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class = 'item'>
+                <img src = 'images/baltimore-map.png' alt = 'Baltimore, MD' class = 'baltimore-map'>
+            </div>
+        </div>
+    </section>
+
+</main>
+<!--Footer section starts here-->
+<footer>
+  <h4>&copy; 2021 bsgauthierwebdev</h4>
+ </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
