@@ -172,7 +172,12 @@
       flex-direction: row;
     }
 
-    #intro, #about, #projects, #contact {
+    #intro, #projects {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    #about, #contact {
         margin-left: 25px;
         margin-right: 25px;
     }
