@@ -12,7 +12,7 @@
   }
   
   #projects, #intro{
-    background-color: (211, 211, 211, .5);
+    background-color: rgb(211, 211, 211, .5);
     color: white;
     text-align: center;
     margin-left: 10px;
