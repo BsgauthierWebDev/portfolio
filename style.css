@@ -12,7 +12,7 @@
   }
   
   #projects, #intro{
-    background-color: rgb(211, 211, 211, .5);
+    background-color: rgb(211, 211, 211, .75);
     color: white;
     text-align: center;
     margin-left: 10px;
@@ -20,7 +20,7 @@
   }
   
   #about, #contact{
-    background-color: rgb(62, 60,73, .5);
+    background-color: rgb(62, 60,73, .65);
     color: white;
     text-align: center;
     margin-left: 10px;
